@@ -1,0 +1,18 @@
+@keyframes pulse {
+    0%, 100% {
+        opacity: 0.6;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.loading_messeage .loading {
+    animation: pulse 1.5s infinite;
+}
+.loading_messeage{
+    font-size: 20px;
+}
+ul{
+    font-size: 18px;
+}
